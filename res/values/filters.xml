@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="filter_names">
+        <item>None</item>
+        <item>Aqua</item>
+        <item>Blackboard</item>
+        <item>Mono</item>
+        <item>Negative</item>
+        <item>Solarize</item>
+        <item>Sepia</item>
+        <item>Posterize</item>
+        <item>Whiteboard</item>
+    </string-array>
+    
+</resources>

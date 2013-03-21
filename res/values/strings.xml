@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Camera</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_inner">InnerActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">NOT YET\nIMPLEMENTED!</string>
+    <string name="title_activity_splash">Camera</string>
+    <string name="cd">Logo Splash</string>
+    <string name="title_activity_music_main">MusicMain</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="title_activity_view_master">ViewMaster</string>
+
+</resources>
