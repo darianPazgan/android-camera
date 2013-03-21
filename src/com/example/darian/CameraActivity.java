@@ -32,8 +32,10 @@ import android.widget.Spinner;
 
 public class CameraActivity extends Activity {
 	
+	
 	private boolean mAutoFocus = false;
 	private Button snap;
+	private LayoutAnimationController animController;
 	
 	private AutoFocusCallback cb = new AutoFocusCallback(){
 
@@ -123,7 +125,7 @@ public class CameraActivity extends Activity {
 		setContentView(R.layout.activity_camera);
 		
 		Animation rotateAnim = AnimationUtils.loadAnimation(this, R.anim.rotation);
-		LayoutAnimationController animController = new LayoutAnimationController(rotateAnim,0);
+		animController = new LayoutAnimationController(rotateAnim,0);
 		
 		
 		mCamera = getCameraInstance();
@@ -162,7 +164,7 @@ public class CameraActivity extends Activity {
 		
 		mPreview = new CamPrev(this, mCamera);
 		FrameLayout preview = (FrameLayout)findViewById(R.id.camera_preview);
-		preview.setLayoutAnimation(animController);
+		//preview.setLayoutAnimation(animController);
 		RelativeLayout con = (RelativeLayout)findViewById(R.id.control);
 		preview.addView(mPreview);
 		
@@ -189,6 +191,7 @@ public class CameraActivity extends Activity {
 	public void onConfigurationChanged(Configuration newconfig) {
 		super.onConfigurationChanged(newconfig);
 		System.out.println("Changed!");
+		overridePendingTransition(R.anim.rotation,R.anim.rotation);
 	}
 	
 	
