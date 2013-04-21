@@ -9,9 +9,17 @@ package com.example.darian;
 
 public final class R {
     public static final class anim {
-        public static final int mainfadein=0x7f040000;
-        public static final int rotation=0x7f040001;
-        public static final int splashfadeout=0x7f040002;
+        public static final int focus=0x7f040000;
+        public static final int mainfadein=0x7f040001;
+        public static final int qualfadein=0x7f040002;
+        public static final int qualfadeout=0x7f040003;
+        public static final int rotation=0x7f040004;
+        public static final int rotation2=0x7f040005;
+        public static final int rotation3=0x7f040006;
+        public static final int rotation4=0x7f040007;
+        public static final int snapflash=0x7f040008;
+        public static final int splashfadeout=0x7f040009;
+        public static final int swipe=0x7f04000a;
     }
     public static final class array {
         public static final int filter_names=0x7f070000;
@@ -40,19 +48,36 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int activity_vertical_margin=0x7f060001;
     }
     public static final class drawable {
-        public static final int cambuttonopt=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
-        public static final int lens=0x7f020002;
-        public static final int lens_press=0x7f020003;
-        public static final int untitled=0x7f020004;
-        public static final int upper_level=0x7f020005;
+        public static final int bar=0x7f020000;
+        public static final int cambuttonopt=0x7f020001;
+        public static final int cross_bottom=0x7f020002;
+        public static final int cross_top=0x7f020003;
+        public static final int crosshairs=0x7f020004;
+        public static final int gallery=0x7f020005;
+        public static final int glow=0x7f020006;
+        public static final int ic_launcher=0x7f020007;
+        public static final int icon=0x7f020008;
+        public static final int lens=0x7f020009;
+        public static final int lens_press=0x7f02000a;
+        public static final int quality_overlay=0x7f02000b;
+        public static final int shade_bar=0x7f02000c;
+        public static final int thumb=0x7f02000d;
+        public static final int untitled=0x7f02000e;
+        public static final int upper_level=0x7f02000f;
     }
     public static final class id {
-        public static final int action_settings=0x7f0b0004;
+        public static final int action_settings=0x7f0b000b;
         public static final int camera_preview=0x7f0b0000;
         public static final int control=0x7f0b0001;
-        public static final int filters=0x7f0b0003;
-        public static final int snap=0x7f0b0002;
+        public static final int crosstop=0x7f0b0007;
+        public static final int filters=0x7f0b0006;
+        public static final int glow=0x7f0b0008;
+        public static final int quality=0x7f0b0009;
+        public static final int quality_bar=0x7f0b0003;
+        public static final int quality_val=0x7f0b000a;
+        public static final int shade_bar=0x7f0b0004;
+        public static final int shade_top=0x7f0b0002;
+        public static final int snap=0x7f0b0005;
     }
     public static final class layout {
         public static final int activity_camera=0x7f030000;
@@ -70,9 +95,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int action_settings=0x7f080001;
         public static final int app_name=0x7f080000;
         public static final int cd=0x7f080007;
+        public static final int content_desc_glow=0x7f08000c;
+        public static final int content_description_crosshair=0x7f08000b;
         public static final int dummy_button=0x7f080004;
         public static final int dummy_content=0x7f080005;
         public static final int hello_world=0x7f080002;
+        public static final int swipe_button=0x7f08000d;
         public static final int title_activity_camera=0x7f080009;
         public static final int title_activity_inner=0x7f080003;
         public static final int title_activity_music_main=0x7f080008;
